@@ -1,0 +1,44 @@
+body {
+  margin: auto;
+}
+
+#main-container {
+  display: flex;
+}
+
+#container1 {
+  height: 1300px;
+  width: 30%;
+}
+
+.block:nth-child(1) {
+  height: 300px;
+  width: auto;
+  background-color: #B2DFDB;
+}
+
+.block:nth-child(2) {
+  height: 300px;
+  width: auto;
+  background-color: #C8E6C9;
+}
+
+.block:nth-child(3) {
+  height: 300px;
+  width: auto;
+  background-color: #FFF9C4;
+}
+
+.block:nth-child(4) {
+  height: 300px;
+  width: auto;
+  background-color: #D1C4E9;
+}
+
+/*///////////// container 2  ///////////////// */
+
+#container2 {
+  height: 1300px;
+  width: 70%;
+  background-color: #ffcdd2;
+}
