@@ -6,23 +6,29 @@ body {
   display: flex;
   height: auto;
   margin: auto;
-  padding-left: 40px;
-  padding-right: 40px;
   font-family: 'Helvetica Neue','OpenSans-regular',Arial,Helvetica,sans-serif;
+  border: 1px solid grey;
 }
 
 .primary {
   background-color: #B3E5FC;
 }
+
 mark {
   background-color: #FAFAFA;
   color: #B3E5FC;
+}
+
+img {
+  height: 200px;
+  border-radius: 180px;
 }
 
 h1 {
   font-size: 50px;
   margin-bottom: 10px;
 }
+
 h2 {
   font-size: 30px;
   margin-top: 0px;
@@ -37,22 +43,24 @@ aside {
 
 section:nth-child(1) {
   background-color: #B3E5FC;
-  height: 300px;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 section:nth-child(2) {
   background-color: #B3E5FC;
-  height: auto;
 }
 
 section:nth-child(3) {
   background-color: #B3E5FC;
-  height: 550px;
+  height: 730px;
 }
 
 section:nth-child(4) {
   background-color: #B3E5FC;
-  height: 150px;
+  height: auto;
 }
 
 .title-aside {
@@ -71,11 +79,19 @@ section:nth-child(4) {
 }
 
 .paragraphe {
-  padding: 15px 35px 30px 35px;
+  padding: 20px 40px 40px 40px;
 }
 
 .align {
   text-align: justify;
+}
+
+.para-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 25px 40px 25px 40px;
 }
 
 section:nth-child(3) {
@@ -87,6 +103,10 @@ section:nth-child(4) {
   background-color: #B3E5FC;
 }
 
+.logosize {
+  height: 100px;
+}
+
 /* container 2*/
 main {
   height: auto;
@@ -96,25 +116,25 @@ main {
 
 article:nth-child(1) {
   background-color: #FAFAFA;
-  height: 300px;
+  height: 270px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 article:nth-child(2) {
-  background-color: #FFE082;
-  height: 350px;
+  background-color: #FAFAFA;
+  height: auto;
 }
 
 article:nth-child(3) {
-  background-color: #ef9a9a;
-  height: 350px;
+  background-color: #FAFAFA;
+  height: auto;
 }
 
 article:nth-child(4) {
-  background-color: #B2DFDB;
-  height: 300px;
+  background-color: #FAFAFA;
+  height: auto;
 }
 /* --------------------------------------- */
 
@@ -149,6 +169,7 @@ h3 {
   border-radius: 180px;
   height: 3px;
   width: auto;
+  margin-bottom: 30px;
 }
 
 .titre {
@@ -160,4 +181,19 @@ h3 {
   width: 60px;
   margin-right: 25px;
   margin-bottom: 2px;
+}
+
+.block-date-text {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.nomar{
+  margin-top: 0px;
+}
+.point {
+}
+.date {
+  margin-left: 20px;
+  width: 200px;
 }
