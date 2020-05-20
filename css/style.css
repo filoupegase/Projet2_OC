@@ -22,6 +22,11 @@ mark {
 img {
   height: 200px;
   border-radius: 180px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 h1 {
@@ -37,31 +42,10 @@ h2 {
 
 /* container 1*/
 aside {
-  height: auto;
-  width: 30%;
-}
-
-section:nth-child(1) {
-  background-color: #B3E5FC;
-  height: 340px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-section:nth-child(2) {
+  width: 32%;
   background-color: #B3E5FC;
 }
 
-section:nth-child(3) {
-  background-color: #B3E5FC;
-  height: 730px;
-}
-
-section:nth-child(4) {
-  background-color: #B3E5FC;
-  height: auto;
-}
 
 .title-aside {
   background-color: #29293d;
@@ -84,6 +68,7 @@ section:nth-child(4) {
 
 .align {
   text-align: justify;
+  margin-bottom: 180px;
 }
 
 .para-icons{
@@ -94,54 +79,24 @@ section:nth-child(4) {
   padding: 25px 40px 25px 40px;
 }
 
-section:nth-child(3) {
-  background-color: #B3E5FC;
-
-}
-
-section:nth-child(4) {
-  background-color: #B3E5FC;
-}
-
-.logosize {
-  height: 100px;
-}
 
 /* container 2*/
 main {
-  height: auto;
-  width: 70%;
-}
-
-
-article:nth-child(1) {
+  width: 68%;
+  padding: 15px 45px 30px 60px;
   background-color: #FAFAFA;
-  height: 270px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
-article:nth-child(2) {
-  background-color: #FAFAFA;
-  height: auto;
+
+header {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    margin-bottom: 110px;
 }
 
-article:nth-child(3) {
-  background-color: #FAFAFA;
-  height: auto;
-}
-
-article:nth-child(4) {
-  background-color: #FAFAFA;
-  height: auto;
-}
 /* --------------------------------------- */
-
-article {
-  padding: 15px 35px 30px 60px;
-}
-
 
 h1 {
   font-size: 50px;
@@ -186,6 +141,7 @@ h3 {
 .block-date-text {
   display: flex;
   margin-bottom: 30px;
+  background-color: red;
 }
 
 .nomar{
