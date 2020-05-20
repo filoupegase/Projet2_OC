@@ -35,8 +35,14 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  font-size: 32px;
+  margin-top: 11px;
   margin-bottom: 0px;
 }
 
@@ -45,7 +51,6 @@ aside {
   width: 32%;
   background-color: #B3E5FC;
 }
-
 
 .title-aside {
   background-color: #29293d;
@@ -79,7 +84,6 @@ aside {
   padding: 25px 40px 25px 40px;
 }
 
-
 /* container 2*/
 main {
   width: 68%;
@@ -92,27 +96,10 @@ header {
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 110px;
-    margin-bottom: 110px;
+    margin-top: 105px;
+    margin-bottom: 105px;
 }
-
 /* --------------------------------------- */
-
-h1 {
-  font-size: 50px;
-  margin-bottom: 10px;
-}
-h2 {
-  font-size: 30px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-h3 {
-  font-size: 25px;
-  margin-top: 11px;
-  margin-bottom: 0px;
-}
 
 .sligne {
   border-radius: 180px;
@@ -127,15 +114,14 @@ h3 {
   margin-bottom: 30px;
 }
 
-.titre {
-  display: flex;
+.icons {
+  color: #B3E5FC;
+  margin-right: 30px;
+  margin-bottom: 5px;
 }
 
-.cube {
-  height: 50px;
-  width: 60px;
-  margin-right: 25px;
-  margin-bottom: 2px;
+.titre {
+  display: flex;
 }
 
 .block-date-text {
