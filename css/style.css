@@ -38,6 +38,7 @@ h2 {
   font-size: 28px;
   margin-top: 0px;
   margin-bottom: 0px;
+  position: absolute;
 }
 
 h3 {
@@ -100,12 +101,16 @@ header {
     margin-bottom: 105px;
 }
 /* --------------------------------------- */
-
-.sligne {
-  border-radius: 180px;
-  height: 3px;
-  width: 95px;
+#sligne {
+   content: "";
+   display: block;
+   height: 22px;
+   width: 430px;
+   border-radius: 6px;
+   background-color: #B3E5FC;
+   margin: 26px 0px 0px 8px;;
 }
+
 
 .bligne {
   border-radius: 180px;
