@@ -4,8 +4,6 @@ html {
 
 body {
   display: flex;
-  height: auto;
-  margin: auto;
   font-family: 'Helvetica Neue','OpenSans-regular',Arial,Helvetica,sans-serif;
   border: 1px solid grey;
 }
@@ -47,7 +45,8 @@ h3 {
   margin-bottom: 0px;
 }
 
-/* container 1*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
 aside {
   width: 32%;
   background-color: #B3E5FC;
@@ -85,13 +84,13 @@ aside {
   padding: 25px 40px 25px 40px;
 }
 
-/* container 2*/
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
 main {
   width: 68%;
-  padding: 15px 45px 30px 60px;
+  padding: 15px 55px 30px 60px;
   background-color: #FAFAFA;
 }
-
 
 header {
   display: block;
@@ -100,24 +99,28 @@ header {
     margin-top: 105px;
     margin-bottom: 105px;
 }
-/* --------------------------------------- */
+
 #sligne {
    content: "";
    display: block;
-   height: 22px;
+   height: 21px;
    width: 430px;
    border-radius: 6px;
    background-color: #B3E5FC;
-   margin: 26px 0px 0px 8px;;
+   margin: 26px 0px 0px 10px;;
 }
 
 
-.bligne {
-  border-radius: 180px;
+#undertitle {
+  content: "";
+  display: block;
   height: 3px;
   width: auto;
+  border-radius: 6px;
+  background-color: #B3E5FC;
   margin-bottom: 30px;
 }
+
 
 .icons {
   color: #B3E5FC;
@@ -132,15 +135,13 @@ header {
 .block-date-text {
   display: flex;
   margin-bottom: 30px;
-  background-color: red;
+
 }
 
 .nomar{
   margin-top: 0px;
 }
-.point {
-}
 .date {
-  margin-left: 20px;
+  margin-left: 17px;
   width: 200px;
 }
