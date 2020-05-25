@@ -50,11 +50,10 @@ h3 {
 ul {
   list-style: none;
   margin-top: 0px;
+  margin-left: 0px;
+  padding-left: 10px;
 }
 
-li {
-
-}
 .lititre {
   margin-bottom: 8px;
   font-size: 21px;
@@ -158,7 +157,6 @@ header {
 .block-date-text {
   display: flex;
   margin-bottom: 30px;
-
 }
 
 .nomar{
