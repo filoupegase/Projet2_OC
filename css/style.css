@@ -11,7 +11,7 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 860px) and (min-width: 340px){
+@media screen and (max-width: 742px) and (min-width: 340px){
 body {
   margin: auto;
 }
