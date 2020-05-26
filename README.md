@@ -4,5 +4,5 @@
 
 <code>rkjfjeznff</code>
 
-<a href="https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png" target="_blank">
-<img src="https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png" alt="Big up la famille"/></a>
+<a href="https://openclassrooms.com/fr/projects/639/assignment" target="_blank">
+<img src="https://user.oc-static.com/upload/2019/04/12/15550721972967_Resume%20-%203.png" alt="lien vers le projet sur OC"/></a>
