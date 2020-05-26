@@ -3,16 +3,27 @@ html {
 }
 
 body {
-  display: flex;
   font-family: 'Helvetica Neue','OpenSans-regular',Arial,Helvetica,sans-serif;
   border: 1px solid grey;
   margin: 9px 25px 9px 25px;
 }
 
+.flexmain {
+  display: flex;
+}
+
+@media screen and (max-width: 860px) {
+body {
+  margin: auto;
+}
+  .flexmain {
+    display: block;
+  }
+}
+
 .primary {
   background-color: #B3E5FC;
 }
-
 
 mark {
   background-color: #FAFAFA;
