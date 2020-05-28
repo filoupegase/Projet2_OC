@@ -11,44 +11,108 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 742px) and (min-width: 340px){
+/* between 0px et 480px*/
+@media screen and (max-width: 480px) {
+
 body {
   margin: auto;
 }
+
   .flexmain {
     display: block;
   }
+
   .aside{
     width: 100%;
   }
+
   .main {
     width: 100%;
   }
+
   .imgnomar{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    border-radius: 90px;
-    height: 200px;
+    width: 60%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    border-radius: 80%;
   }
+
+  div.titleside{
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 28%;
+  }
+  h3.blow {
+    font-size: 18px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+  }
+
   .flex-section {
     display: flex;
   }
-  .section-contact-media {
-    width: 100%;
-  }
+
   .media-section-pic {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .paramedia{
+
+  div.paramedia{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 5px 0px 15px 0px;
   }
-/*??????*/.align {
-    margin-bottom: 0px;
+
+  p{
+    font-size: 14px;
+  }
+  div.align {
+    margin-bottom: 20px;
+  }
+  i.fa-biking{
+    font-size: 2.5em;
+  }
+  i.fa-futbol{
+    font-size: 2.5em;
+  }
+  i.fa-skiing{
+    font-size: 2.5em;
+  }
+
+  .header {
+    margin-top: auto;
+    margin-bottom: 100px;
+  }
+
+  h1.titlemedia{
+    margin-bottom: 15px;
+    font-size: 50px;
+  }
+  h2.titlemedia{
+    font-size: 25px;
+    margin-bottom: 1px;
+  }
+
+  span#underbigtitle {
+    content: "";
+    display: block;
+    height: 3px;
+    width: auto;
+    border-radius: 6px;
+    background-color: #B3E5FC;
+    margin-top: 2px;
+    margin-right: 140px;
+    max-width: 140px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 780px) {
+  p {
+    background-color: black;
+    color: red;
   }
 }
 
@@ -62,13 +126,13 @@ mark {
 }
 
 img {
-  height: 200px;
-  border-radius: 180px;
+  max-width: 60%;
+  border-radius: 60%;
   display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -78,9 +142,8 @@ h1 {
 
 h2 {
   font-size: 28px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 h3 {
@@ -133,7 +196,7 @@ aside {
   background-color: #B3E5FC;
 }
 
-.title-aside {
+.titleside {
   background-color: #29293d;
   height: auto;
   width: auto;
@@ -171,6 +234,7 @@ main {
   width: 68%;
   padding: 15px 55px 30px 60px;
   background-color: #FAFAFA;
+  box-sizing: border-box;
 }
 
 header {
@@ -178,17 +242,18 @@ header {
     margin-left: auto;
     margin-right: auto;
     margin-top: 105px;
-    margin-bottom: 105px;
+    margin-bottom: 110px;
 }
 
-#sligne {
-   content: "";
-   display: block;
-   height: 21px;
-   width: 430px;
-   border-radius: 6px;
-   background-color: #B3E5FC;
-   margin: 26px 0px 0px 10px;;
+#underbigtitle {
+  content: "";
+  display: block;
+  height: 3px;
+  width: auto;
+  border-radius: 6px;
+  background-color: #B3E5FC;
+  margin-top: 2px;
+  margin-right: 630px;
 }
 
 #undertitle {
@@ -201,13 +266,11 @@ header {
   margin-bottom: 38px;
 }
 
-
 .icons {
   color: #B3E5FC;
   margin-right: 30px;
   margin-bottom: 5px;
 }
-
 .titre {
   display: flex;
 }
