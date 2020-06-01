@@ -11,8 +11,9 @@ body {
   display: flex;
 }
 
-/* between 0px et 480px*/
-@media screen and (max-width: 480px) {
+/* ----------- 0 - 480px ----------- */
+@media screen and
+ (max-width:480px){
 
 body {
   margin: auto;
@@ -69,6 +70,10 @@ body {
   p{
     font-size: 14px;
   }
+  mark.bold{
+    font-size: 16px;
+    background-color: inherit;
+  }
   div.paragraphe.align {
     padding-top: 10px;
   }
@@ -86,7 +91,7 @@ body {
   }
 
   main.main{
-    padding: 15px 45px 30px 45px;
+    padding: 1px 25px 25px 25px;
   }
 
   .header {
@@ -139,7 +144,7 @@ body {
     display: flex;
   }
   p.nomar{
-    font-size: 16px;
+    font-size: 15px;
   }
   ul.ulmedia{
     padding-left: 0px;
@@ -149,27 +154,190 @@ body {
     margin-bottom: 4px;
   }
   li.lisoutitre{
-    font-size: 18px;
+    font-size: 17px;
   }
   li.litexte{
-
+    font-size: 14px;
+  }
+  li.ultitre{
+    font-size: 19px;
+  }
+  li.ulsoutitre{
+    font-size: 15px;
+  }
+  li.ultexte{
+    font-size: 13px;
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 780px) {
-  p {
-    background-color: black;
-    color: red;
-  }
+/* ----------- 480 - 800px ----------- */
+@media screen
+  and (min-width:481px)
+  and (max-width:800px){
+    body {
+      margin: auto;
+    }
+
+      .flexmain {
+        display: block;
+      }
+
+      .aside{
+        width: 100%;
+      }
+
+      .main {
+        width: 100%;
+      }
+
+      .imgnomar{
+        width: 100%;
+        margin-bottom: 35px;
+        margin-top: 35px;
+        border-radius: 80%;
+      }
+
+      div.titleside{
+        margin-right: 25px;
+        margin-left: 25px;
+        border-radius: 28%;
+      }
+      h3.blow {
+        font-size: 22px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+      }
+
+      .flex-section {
+        display: flex;
+      }
+
+      .media-section-pic {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      div.paramedia{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0px 15px 0px;
+      }
+
+      p{
+        font-size: 16px;
+      }
+      mark.bold{
+        font-size: 18px;
+        background-color: inherit;
+      }
+      div.paragraphe.align {
+        padding-top: 5px;
+      }
+      div.align {
+        margin-bottom: 15px;
+      }
+      i.fa-biking{
+        font-size: 3em;
+      }
+      i.fa-futbol{
+        font-size: 3em;
+      }
+      i.fa-skiing{
+        font-size: 3em;
+      }
+
+      main.main{
+        padding: 20px 40px 40px 40px;
+      }
+
+      .header {
+        margin-top: auto;
+        margin-bottom: 65px;
+      }
+
+      h1.titlemedia{
+        margin-bottom: 15px;
+        font-size: 56px;
+      }
+      h2.titlemedia{
+        font-size: 27px;
+        margin-bottom: 1px;
+      }
+      h3.titlemedia{
+        font-size: 25px;
+      }
+
+      span#underbigtitle {
+        content: "";
+        display: block;
+        height: 3px;
+        width: auto;
+        border-radius: 6px;
+        background-color: #B3E5FC;
+        margin-top: 2px;
+        margin-right: 140px;
+        max-width: 120px;
+      }
+      i.fa-graduation-cap{
+        font-size: 2.5em;
+        margin-bottom: 0px;
+        margin-right: 15px;
+      }
+      i.fa-briefcase{
+        font-size: 2.5em;
+        margin-bottom: 0px;
+        margin-right: 15px;
+      }
+      i.fa-pencil-alt{
+        font-size: 2.5em;
+        margin-bottom: 0px;
+        margin-right: 15px;
+      }
+      div.block-date-text{
+        display: block;
+      }
+      div.flexmedia{
+        display: flex;
+      }
+      p.nomar{
+        font-size: 17px;
+      }
+      ul.ulmedia{
+        padding-left: 0px;
+      }
+      li.lititre{
+        font-size: 25px;
+        margin-bottom: 4px;
+      }
+      li.lisoutitre{
+        font-size: 19px;
+      }
+      li.litexte{
+        font-size: 16px;
+      }
+      li.ultitre{
+        font-size: 22px;
+      }
+      li.ulsoutitre{
+        font-size: 17px;
+      }
+      li.ultexte{
+        font-size: 15px;
+      }
 }
 
 .primary {
   background-color: #B3E5FC;
 }
 
-mark {
+mark.colormark {
   background-color: #FAFAFA;
   color: #B3E5FC;
+  margin-bottom: 15px;
+  font-size: 46px;
 }
 
 img {
