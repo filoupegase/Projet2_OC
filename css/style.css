@@ -7,6 +7,10 @@ body {
   border: 1px solid grey;
 }
 
+@media screen and
+ (max-width:1250px){
+}
+
 .flexmain {
   display: flex;
 }
@@ -99,7 +103,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-span#underbigtitle {
+span.underbigtitle {
   content: "";
   display: block;
   height: 3px;
@@ -192,7 +196,7 @@ main {
   box-sizing: border-box;
 }
 
-#underbigtitle {
+.underbigtitle {
   content: "";
   display: block;
   height: 3px;
@@ -203,7 +207,7 @@ main {
   margin-right: 630px;
 }
 
-#undertitle {
+.undertitle {
   content: "";
   display: block;
   height: 3px;
@@ -226,7 +230,8 @@ main {
   display: flex;
   margin-bottom: 30px;
 }
-.block-date-text-last {
+
+div.block-date-text-last {
   display: flex;
   margin-bottom: auto;
   justify-content: space-between;
@@ -322,7 +327,6 @@ body {
     padding: 1px 25px 25px 25px;
   }
 
-
   .header {
     margin-top: auto;
     margin-bottom: 55px;
@@ -340,7 +344,7 @@ body {
     font-size: 19px;
   }
 
-  span#underbigtitle {
+  span.underbigtitle {
     content: "";
     display: block;
     height: 3px;
@@ -378,6 +382,9 @@ body {
   ul.ulmedia{
     padding-left: 0px;
   }
+  ul.ulbottom{
+    margin-bottom: 40px;
+  }
   li.lititre{
     font-size: 21px;
     margin-bottom: 4px;
@@ -396,6 +403,10 @@ body {
   }
   li.ultexte{
     font-size: 13px;
+  }
+  div.block-date-text-last {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -499,7 +510,7 @@ body {
         font-size: 25px;
       }
 
-      span#underbigtitle {
+      span.underbigtitle {
         content: "";
         display: block;
         height: 3px;
@@ -555,5 +566,12 @@ body {
       }
       li.ultexte{
         font-size: 15px;
+      }
+      ul.ulbottom{
+        margin-bottom: 40px;
+      }
+      div.block-date-text-last {
+        display: flex;
+        flex-direction: column;
       }
 }
