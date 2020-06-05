@@ -72,7 +72,7 @@ mark.bold{
 
 .align {
   text-align: justify;
-  margin-bottom: 380px;
+  margin-bottom: 410px;
 }
 
 i.fa-biking{
@@ -239,12 +239,12 @@ main {
   display: flex;
 }
 
-.block-date-text {
+section.bigblock {
   display: flex;
   margin-bottom: 30px;
 }
 
-div.block-date-text-last {
+section.bigblock-last {
   display: flex;
   margin-bottom: auto;
   justify-content: space-between;
@@ -256,6 +256,14 @@ div.block-date-text-last {
 .date {
   margin-left: 17px;
   width: 200px;
+}
+.lastarticle{
+  margin-top: 70px;
+}
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
 }
 /* ----------- 0 - 480px ----------- */
 @media screen and
@@ -386,7 +394,7 @@ html {
     margin-bottom: 0px;
     margin-right: 15px;
   }
-  div.block-date-text{
+  section.bigblock{
     display: block;
   }
   div.flexmedia{
@@ -420,7 +428,7 @@ html {
   li.ultexte{
     font-size: 13px;
   }
-  div.block-date-text-last {
+  section.bigblock-last {
     display: flex;
     flex-direction: column;
   }
@@ -546,7 +554,7 @@ html {
         margin-bottom: 0px;
         margin-right: 15px;
       }
-      div.block-date-text{
+      section.bigblock{
         display: block;
       }
       div.flexmedia{
@@ -580,7 +588,7 @@ html {
       ul.ulbottom{
         margin-bottom: 40px;
       }
-      div.block-date-text-last {
+      section.bigblock-last {
         display: flex;
         flex-direction: column;
       }
