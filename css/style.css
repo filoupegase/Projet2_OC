@@ -11,12 +11,30 @@ body {
  (max-width:1250px){
 }
 
+aside {
+  width: 32%;
+  background-color: #B3E5FC;
+}
+
+
+
+main {
+  width: 68%;
+  padding: 15px 55px 30px 60px;
+  background-color: #FAFAFA;
+  box-sizing: border-box;
+}
+
 .flexmain {
   display: flex;
 }
 
 .primary {
   background-color: #B3E5FC;
+}
+
+div.paragraphe {
+  padding: 20px 40px 40px 40px;
 }
 
 img {
@@ -42,10 +60,6 @@ h3.blow {
   margin: 9px;
   color: #B3E5FC;
   font-size: 24px;
-}
-
-div.paragraphe {
-  padding: 20px 40px 40px 40px;
 }
 
 p{
