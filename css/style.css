@@ -239,12 +239,12 @@ main {
   display: flex;
 }
 
-section.bigblock {
+div.bigblock {
   display: flex;
   margin-bottom: 30px;
 }
 
-section.bigblock-last {
+div.bigblock-last {
   display: flex;
   margin-bottom: auto;
   justify-content: space-between;
@@ -394,7 +394,7 @@ html {
     margin-bottom: 0px;
     margin-right: 15px;
   }
-  section.bigblock{
+  div.bigblock{
     display: block;
   }
   div.flexmedia{
@@ -428,7 +428,7 @@ html {
   li.ultexte{
     font-size: 13px;
   }
-  section.bigblock-last {
+  div.bigblock-last {
     display: flex;
     flex-direction: column;
   }
@@ -554,7 +554,7 @@ html {
         margin-bottom: 0px;
         margin-right: 15px;
       }
-      section.bigblock{
+      div.bigblock{
         display: block;
       }
       div.flexmedia{
@@ -588,7 +588,7 @@ html {
       ul.ulbottom{
         margin-bottom: 40px;
       }
-      section.bigblock-last {
+      div.bigblock-last {
         display: flex;
         flex-direction: column;
       }
