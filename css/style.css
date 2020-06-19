@@ -72,7 +72,7 @@ mark.bold{
 
 .align {
   text-align: justify;
-  margin-bottom: 410px;
+  margin-bottom: 450px;
 }
 
 i.fa-biking{
@@ -89,8 +89,8 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 110px;
-  margin-bottom: 115px;
+  margin-top: 130px;
+  margin-bottom: 160px;
 }
 
 h1 {
@@ -158,9 +158,12 @@ ul {
   padding-left: 10px;
 }
 
-.lititre {
+h4.lititre {
   margin-bottom: 8px;
   font-size: 21px;
+  font-weight: 500;
+  margin-top: 0;
+  padding-left: 10px;
 }
 
 .lisoutitre {
@@ -184,9 +187,10 @@ ul {
   text-align: center;
 }
 
-.ultexte {
+li.ultexte {
   font-size: 15px;
   text-align: center;
+  margin-bottom: 5px;
 }
 
 aside {
@@ -227,7 +231,7 @@ main {
   width: auto;
   border-radius: 6px;
   background-color: #B3E5FC;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
 }
 
 .icons {
@@ -239,15 +243,17 @@ main {
   display: flex;
 }
 
-div.bigblock {
+section.bigblock {
   display: flex;
   margin-bottom: 30px;
+  align-items: baseline;
 }
 
-div.bigblock-last {
+section.bigblock-last {
   display: flex;
   margin-bottom: auto;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 .nomar{
@@ -257,8 +263,8 @@ div.bigblock-last {
   margin-left: 17px;
   width: 200px;
 }
-.lastarticle{
-  margin-top: 90px;
+article.lastarticle{
+  margin-top: 80px;
 }
 a {
   text-decoration: none;
@@ -394,7 +400,7 @@ a {
     margin-bottom: 0px;
     margin-right: 15px;
   }
-  div.bigblock{
+  section.bigblock{
     display: block;
   }
   div.flexmedia{
@@ -403,15 +409,15 @@ a {
   p.nomar{
     font-size: 15px;
   }
-  ul.ulmedia{
-    padding-left: 0px;
-  }
   ul.ulbottom{
     margin-bottom: 40px;
   }
-  li.lititre{
+  h4.lititre{
     font-size: 21px;
     margin-bottom: 4px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-left: 10px;
   }
   li.lisoutitre{
     font-size: 17px;
@@ -427,14 +433,18 @@ a {
   }
   li.ultexte{
     font-size: 13px;
+    margin-bottom: 5px;
   }
-  div.bigblock-last {
+  section.bigblock-last {
     display: flex;
     flex-direction: column;
   }
+  article.lastarticle{
+    margin-top: 50px;
+  }
 }
 
-/* ----------- 480 - 800px ----------- */
+/* ----------- 480px - 800px ----------- */
 @media screen
 and (min-width:481px)
 and (max-width:800px){
@@ -471,7 +481,9 @@ and (max-width:800px){
     margin-top: 6px;
     margin-bottom: 6px;
   }
-
+  article.lastarticle{
+    margin-top: 50px;
+  }
   .flex-section {
     display: flex;
   }
@@ -554,7 +566,7 @@ and (max-width:800px){
     margin-bottom: 0px;
     margin-right: 15px;
   }
-  div.bigblock{
+  section.bigblock{
     display: block;
   }
   div.flexmedia{
@@ -563,12 +575,12 @@ and (max-width:800px){
   p.nomar{
     font-size: 17px;
   }
-  ul.ulmedia{
-    padding-left: 0px;
-  }
-  li.lititre{
+  h4.lititre{
     font-size: 25px;
     margin-bottom: 4px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-left: 10px;
   }
   li.lisoutitre{
     font-size: 19px;
@@ -584,11 +596,12 @@ and (max-width:800px){
   }
   li.ultexte{
     font-size: 15px;
+    margin-bottom: 5px;
   }
   ul.ulbottom{
     margin-bottom: 40px;
   }
-  div.bigblock-last {
+  section.bigblock-last {
     display: flex;
     flex-direction: column;
   }
